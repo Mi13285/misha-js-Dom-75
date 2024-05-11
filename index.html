@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form name="search">
+        <label>
+            <ya-tr-span data-index="0-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+                data-value="Search the site: " data-translation="Выполните поиск по сайту: " data-ch="0"
+                data-type="trSpan" style="visibility: initial !important;">Выполните поиск по сайту: </ya-tr-span><input
+                type="text" name="search">
+        </label>
+        <input type="submit" value="Ищите!">
+    </form>
+    <ya-tr-span data-index="1-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+        data-value=" Search the visitors: " data-translation=" Обыскивать посетителей: " data-ch="0" data-type="trSpan"
+        style="visibility: initial !important;"> Обыскивать посетителей: </ya-tr-span>
+    <table id="age-table">
+        <tbody>
+            <tr>
+                <td><ya-tr-span data-index="2-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+                        data-value="Age:" data-translation="Возраст:" data-ch="0" data-type="trSpan"
+                        style="visibility: initial !important;">Возраст:</ya-tr-span></td>
+                <td id="age-list">
+                    <label>
+                        <input type="radio" name="age" value="young"><ya-tr-span data-index="3-0" data-translated="true"
+                            data-source-lang="en" data-target-lang="ru" data-value="less than 18"
+                            data-translation="менее 18" data-ch="0" data-type="trSpan"
+                            style="visibility: initial !important;">менее 18</ya-tr-span></label>
+                    <label>
+                        <input type="radio" name="age" value="mature"><ya-tr-span data-index="3-0"
+                            data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="18-50"
+                            data-translation="18-50" data-ch="0" data-type="trSpan"
+                            style="visibility: initial !important;">18-50</ya-tr-span></label>
+                    <label>
+                        <input type="radio" name="age" value="senior"><ya-tr-span data-index="3-0"
+                            data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="more than 50"
+                            data-translation="более 50" data-ch="0" data-type="trSpan"
+                            style="visibility: initial !important;">более 50</ya-tr-span></label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><ya-tr-span data-index="4-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+                        data-value="Additionally:" data-translation="Дополнительно:" data-ch="0" data-type="trSpan"
+                        style="visibility: initial !important;">Дополнительно:</ya-tr-span></td>
+                <td>
+                    <input type="text" name="info[0]">
+                    <input type="text" name="info[1]">
+                    <input type="text" name="info[2]">
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <input type="submit" value="Ищите!">
+
+</body>
+<script src="script.js"></script>
+
+</html>

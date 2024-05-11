@@ -1,0 +1,10 @@
+let element = document.getElementById("age-table");
+console.log(element);
+let elementOne = document.querySelectorAll("label");
+console.log(elementOne);
+let elementTwo = document.getElementsByName("search");
+console.log(elementTwo);
+let inputOne = document.querySelectorAll("input")[0];
+console.log(inputOne);
+let elementTree = document.querySelectorAll("form > input:last-child");
+console.log(elementTree);
